@@ -1,0 +1,131 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #bcd9e1;
+    color: #060707;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 30px auto;
+}
+
+th {
+    background-color: #4c738d;
+    padding: 30px;
+    border: 6px solid #212e36;
+    text-align: left;
+    vertical-align: top;
+}
+
+th img {
+    width: 160px;
+    height:180px;
+    border: 5px solid rgba(253, 254, 254, 0.842);
+    border-radius: 70% ;
+    float:left;
+}
+
+h1 {
+    font-size: 40px;
+    color: #1f1e1c;
+    margin: 15px 0;
+}
+
+font {
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li::before {
+    content: "\2022";  /* Bullet point */
+    color: #55523b;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+u {
+    text-decoration: none;
+    color: #333;
+}
+
+summary, u {
+    font-weight: bold;
+}
+
+summary::before, u::before {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0.25em 0.25em 0 0.25em;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    color: #F0E68C;
+}
+
+p {
+    margin: 15px 0;
+}
+.bottom-container{
+    background-color: rgb(200, 186, 192);
+    text-align: center;
+    padding: 10px;
+}
+.bottom-container a{
+    color:rgb(68, 3, 3);
+    text-decoration: none;
+    margin: 20px;
+}
+.bottom-container p{
+    color:rgb(68, 3, 3);
+    margin-top: 20px;
+}
+
+#share-container span {
+    display: block;
+    margin: 3rem auto;
+    font-size: 50px;
+    padding: 1rem;
+    margin: 1rem;
+    }
+    #share-buttons i {
+    font-size: 100px;
+    margin: 20px;
+    }
+    .facebook {
+    color: #3b5998;
+    }
+    .twitter {
+    color: #55acee;
+    }
+    .linkedin {
+    color: #0077b5;
+    }
+    .reddit {
+    color: #cb2027;
+    }
+    .whatsapp {
+    color: #25D366;
+    }
+    .telegram {
+    color: #229ED9;
+    }
+    .facebook, .twitter, .linkedin, .reddit, .whatsapp, .telegram {
+    opacity: 0.6;
+    }
+    .facebook:hover, .twitter:hover, .linkedin:hover, .reddit:hover, .whatsapp:hover, .telegram:hover {
+    opacity: 0.9;
+    }
